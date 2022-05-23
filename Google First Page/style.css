@@ -1,0 +1,107 @@
+* {
+    font-size: 15px;
+}
+
+body {
+    height: 100vh;
+}
+
+/* header */
+header a {
+    color: #333;
+}
+
+header a:hover {
+    color: #333;
+}
+
+header {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.dropdown-button {
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: none;
+}
+
+.dropdown-button:hover {
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.dropdown-button:focus {
+    background-color: #eee;
+}
+
+.dropdown-menu {
+    border-radius: 7px;
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* end of header */
+
+/* main */
+.google-text {
+    z-index: 100;
+    font-family: cursive;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+@media (min-width: 620px) {
+    .search-box-input {
+        width: 480px;
+    }
+}
+
+@media (max-width: 620px) {
+    .search-box-input {
+        width: 200px;
+    }
+}
+
+.search-box-input {
+    border: none;
+}
+
+.search-box-input:focus {
+    outline: none;
+}
+
+.google-language-offer {
+    font-size: 13px;
+}
+
+/* end of main */
+
+/* footer */
+footer {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer a {
+    color: #777;
+}
+
+footer a:hover {
+    color: #777;
+}
+
+.footer-div {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #777;
+}
+
+/* end of footer */
